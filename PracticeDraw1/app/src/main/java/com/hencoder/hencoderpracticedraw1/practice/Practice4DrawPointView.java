@@ -32,13 +32,13 @@ public class Practice4DrawPointView extends View {
 
         Paint mPaint = new Paint();
         mPaint.setColor(Color.BLACK);
-        mPaint.setStrokeWidth(40);
+        mPaint.setStrokeWidth(60);
         mPaint.setStrokeCap(Paint.Cap.ROUND);
 
         canvas.drawPoint(300, 300, mPaint);
 
         Paint mPaint1 = new Paint();
-        mPaint1.setStrokeWidth(40);
+        mPaint1.setStrokeWidth(60);
         mPaint1.setStrokeCap(Paint.Cap.BUTT);
         canvas.drawPoint(600, 300, mPaint1);
 
