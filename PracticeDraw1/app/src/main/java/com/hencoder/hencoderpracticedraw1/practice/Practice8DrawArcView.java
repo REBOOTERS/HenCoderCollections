@@ -31,17 +31,27 @@ public class Practice8DrawArcView extends View {
         Paint mPaint = new Paint();
         Paint mPaint1 = new Paint();
         Paint mPaint2 = new Paint();
-        mPaint2.setStrokeWidth(30);
+
+        mPaint2.setStrokeWidth(10);
         mPaint2.setStrokeCap(Paint.Cap.ROUND);
 
+        Paint mPaint3 = new Paint();
+        mPaint3.setColor(Color.GREEN);
+
         mPaint1.setColor(Color.RED);
-        canvas.drawOval(200, 200, 800, 600, mPaint1);
+        canvas.drawRect(200, 100, 800, 500, mPaint3);
+        canvas.drawOval(200, 100, 800, 500, mPaint1);
 
-        canvas.drawPoint(200, 200, mPaint2);
-        canvas.drawPoint(800, 600, mPaint2);
+        canvas.drawPoint(200, 100, mPaint2);
+        canvas.drawPoint(800, 500, mPaint2);
+        canvas.drawPoint(500, 400, mPaint2);
+        canvas.drawLine(200, 300, 800, 300, mPaint2);
+        canvas.drawLine(500, 100, 500, 500, mPaint2);
 
 
-        canvas.drawArc(200, 200, 800, 600, -30, 90, false, mPaint);
-        canvas.drawArc(200, 200, 800, 600, 60, 90, true, mPaint);
+        canvas.drawArc(200, 100, 800, 500, -110, 100, true, mPaint); // 绘制扇形
+        canvas.drawArc(200, 100, 800, 500, 20, 140, false, mPaint); // 绘制弧形
+        mPaint.setStyle(Paint.Style.STROKE); // 画线模式
+        canvas.drawArc(200, 100, 800, 500, 180, 60, false, mPaint); // 绘制不封口的弧形
     }
 }
