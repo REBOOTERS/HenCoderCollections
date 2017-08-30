@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(pager);
 
-        pager.setCurrentItem(5);
+        pager.setCurrentItem(10);
     }
 
     @Override
