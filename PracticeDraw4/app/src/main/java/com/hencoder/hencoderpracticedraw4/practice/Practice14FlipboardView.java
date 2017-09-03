@@ -10,10 +10,13 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 import android.view.animation.LinearInterpolator;
 
 import com.hencoder.hencoderpracticedraw4.R;
+
+import static android.content.ContentValues.TAG;
 
 public class Practice14FlipboardView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -72,8 +75,22 @@ public class Practice14FlipboardView extends View {
         int x = centerX - bitmapWidth / 2;
         int y = centerY - bitmapHeight / 2;
 
+        // 第一遍绘制：上半部分
+        canvas.save();
+        canvas.clipRect(0, 0, getWidth(), centerY);
+//        canvas.drawBitmap(bitmap, x, y, paint);
+        canvas.restore();
+
+        // 第二遍绘制：下半部分
         canvas.save();
 
+        Log.e(TAG, "onDraw: degree=="+degree );
+
+        if (degree < 90) {
+            canvas.clipRect(0, centerY, getWidth(), getHeight());
+        } else {
+            canvas.clipRect(0, 0, getWidth(), centerY);
+        }
         camera.save();
         camera.rotateX(degree);
         canvas.translate(centerX, centerY);
