@@ -78,7 +78,7 @@ public class Practice14FlipboardView extends View {
         // 第一遍绘制：上半部分
         canvas.save();
         canvas.clipRect(0, 0, getWidth(), centerY);
-//        canvas.drawBitmap(bitmap, x, y, paint);
+        canvas.drawBitmap(bitmap, x, y, paint);
         canvas.restore();
 
         // 第二遍绘制：下半部分
