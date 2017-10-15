@@ -5,6 +5,8 @@ import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import hencoder.com.hencoderextraactivity.flipboard.FlipboardView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
