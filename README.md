@@ -12,3 +12,5 @@ PracticeDraw1-PracticeDraw7
 
 ![Flipboard](https://raw.githubusercontent.com/REBOOTERS/HenCoderCollections/master/HenCoderExtraActivity/screens/flipboard.gif)
 
+
+[快速查看FlipboardView.java](https://github.com/REBOOTERS/HenCoderCollections/blob/9a885d3298238d3903e94507dad4473dff63b04b/HenCoderExtraActivity/app/src/main/java/hencoder/com/hencoderextraactivity/FlipboardView.java)
