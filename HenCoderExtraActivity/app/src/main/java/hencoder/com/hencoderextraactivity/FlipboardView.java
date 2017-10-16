@@ -177,7 +177,6 @@ public class FlipboardView extends View {
         canvas.drawBitmap(bitmap, drawX, drawY, paint);
         canvas.restore();
 
-
         canvas.save();
         camera.save();
         canvas.translate(centerX, centerY);
