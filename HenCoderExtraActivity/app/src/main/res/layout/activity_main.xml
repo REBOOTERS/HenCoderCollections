@@ -9,20 +9,20 @@
     android:orientation="vertical"
     tools:context="hencoder.com.hencoderextraactivity.MainActivity">
 
-    <hencoder.com.hencoderextraactivity.FlipboardView
+    <hencoder.com.hencoderextraactivity.flipboard.FlipboardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         tools:context="hencoder.com.hencoderextraactivity.MainActivity">
-    </hencoder.com.hencoderextraactivity.FlipboardView>
+    </hencoder.com.hencoderextraactivity.flipboard.FlipboardView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="1dp"/>
 
-    <hencoder.com.hencoderextraactivity.FlipboardView
+    <hencoder.com.hencoderextraactivity.flipboard.FlipboardView
         android:id="@+id/flipboard"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -30,5 +30,5 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         tools:context="hencoder.com.hencoderextraactivity.MainActivity">
-    </hencoder.com.hencoderextraactivity.FlipboardView>
+    </hencoder.com.hencoderextraactivity.flipboard.FlipboardView>
 </LinearLayout>

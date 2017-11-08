@@ -1,4 +1,4 @@
-package hencoder.com.hencoderextraactivity;
+package hencoder.com.hencoderextraactivity.flipboard;
 
 /**
  * Created by engineer on 2017/10/14.

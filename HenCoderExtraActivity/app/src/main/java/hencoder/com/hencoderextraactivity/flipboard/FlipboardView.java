@@ -1,4 +1,4 @@
-package hencoder.com.hencoderextraactivity;
+package hencoder.com.hencoderextraactivity.flipboard;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -15,6 +15,8 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
+
+import hencoder.com.hencoderextraactivity.R;
 
 
 public class FlipboardView extends View {
