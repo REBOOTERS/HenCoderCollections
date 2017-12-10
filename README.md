@@ -140,11 +140,11 @@ mode: 两个 Shader 的叠加模式，即 shaderA 和 shaderB 应该怎样共同
 
 源图像和目标图像
 
-<img src="https://ws3.sinaimg.cn/large/52eb2279ly1fig6ia1twgj20ds07tdgs.jpg" width=300,height=300>
+<img src="https://ws3.sinaimg.cn/large/52eb2279ly1fig6ia1twgj20ds07tdgs.jpg" width=300 height=300>
 
 Alpha 效果
 
-<img src="https://ws3.sinaimg.cn/large/52eb2279ly1fig6im3hhcj20o50zt7bj.jpg" width=400,height=400>
+<img src="https://ws3.sinaimg.cn/large/52eb2279ly1fig6im3hhcj20o50zt7bj.jpg" width=400 height=400>
 
 
 ### 2. setColorFilter 
