@@ -6,7 +6,8 @@
 
 ## 绘制基础Canvas.drawXXX 
 
-- drawArc(float left, float top, float right, float bottom, float startAngle, float sweepAngle, boolean useCenter, Paint paint) 绘制弧形或扇形。 useCenter 表示是否连接到圆心，如果不连接到圆心，就是弧形，如果连接到圆心，就是扇形。
+- drawArc(float left, float top, float right, float bottom, float startAngle, float sweepAngle, boolean useCenter, Paint paint) 绘制弧形或扇形。 
+**useCenter 表示是否连接到圆心，如果不连接到圆心，就是弧形，如果连接到圆心，就是扇形。**
 
 
 ## Paint 设置
@@ -57,6 +58,7 @@ CLAMP:
 ![](https://ws3.sinaimg.cn/large/52eb2279ly1fig6e7vbemj20cj090goh.jpg)
 
 MIRROR:
+
 ![](https://ws3.sinaimg.cn/large/52eb2279ly1fig6egtxw5j20ck08xjv6.jpg)
 
 

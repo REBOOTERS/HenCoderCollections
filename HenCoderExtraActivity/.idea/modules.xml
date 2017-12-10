@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HenCoderExtraActivity.iml" filepath="$PROJECT_DIR$/HenCoderExtraActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruler/ruler.iml" filepath="$PROJECT_DIR$/ruler/ruler.iml" />
     </modules>
   </component>
 </project>
